@@ -1,6 +1,8 @@
 const test1 = () => {
   alert("Password incorrect");
 };
+let width = screen.width;
+document.getElementById("demo").innerHTML =  width + "px";
 
 //Account 1
 const CORRECT_USER = "dcs01";
