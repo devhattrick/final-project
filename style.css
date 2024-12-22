@@ -1,146 +1,144 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: #f3f3f3;
-    background-image: url("./images/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    padding: 50px 25px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 50px 25px;
+}
+
+.login-container {
+  /* Instead of a fixed width, use max-width and 100% for flexibility */
+  max-width: 350px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure images scale down on small screens */
+.img-size {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Basic styles for form elements */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(148, 47, 49);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(119, 40, 42);
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group img {
+  position: absolute;
+  top: 32px;
+  left: 6px;
+  color: #888;
+  font-size: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Normal */
+@media (max-width: 480px) {
+  body {
+    /* padding: 20px; */
   }
-  
-  .login-container {
-    /* Instead of a fixed width, use max-width and 100% for flexibility */
-    max-width: 350px;
-    width: 100%;
-    margin: 100px auto;
-    padding: 30px;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-  }
-  
-  /* Make sure images scale down on small screens */
   .img-size {
-    max-width: 100%;
-    height: auto;
+    width: 140px;
   }
-  
-  /* Basic styles for form elements */
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-  }
-  
-  input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(148, 47, 49);
-    color: #fff;
-    font-size: 16px;
+  .login-container {
+    width: 280px;
+    margin: 50px auto;
+    padding: 30px;
+    /* Optionally remove or soften the border and box-shadow on smaller screens */
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    box-shadow: none;
   }
-  
-  button:hover {
-    background-color: rgb(119, 40, 42);
+  h2 {
+    font-size: 1.2rem;
   }
-  
-  .message {
-    margin-top: 20px;
-    text-align: center;
-    color: red;
-    font-weight: bold;
-  }
-  
-  .img-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .input-group {
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .input-group img {
-    position: absolute;
-    top: 32px;
-    left: 6px;
-    color: #888;
+  button {
     font-size: 1rem;
   }
-  
-  .input-group input {
-    width: 100%;
-    padding: 10px 10px 10px 35px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  /* 3) Use a media query to adjust spacing or layout below certain breakpoints */
-  @media (max-width: 480px) {
-    body {
-      /* padding: 20px; */
-    }
-    .img-size{
-      width: 140px;
-    }
-    .login-container {
-      width: 280px;
-      margin: 50px auto;
-      padding: 30px;
-      /* Optionally remove or soften the border and box-shadow on smaller screens */
-      border: none;
-      box-shadow: none;
-    }
-    h2 {
-      font-size: 1.2rem;
-    }
-    button {
-      font-size: 1rem;
-    }
-  }
+}
 
-  @media (max-width: 375px) {
-    body {
-      /* padding: 20px; */
-    }
-    .img-size{
-      width: 90px;
-    }
-    .login-container {
-      width: 235px;
-      margin: 50px auto;
-      padding: 20px;
-      /* Optionally remove or soften the border and box-shadow on smaller screens */
-      border: none;
-      box-shadow: none;
-    }
-    h2 {
-      font-size: 1.2rem;
-    }
-    button {
-      font-size: 1rem;
-    }
+/* Small */
+@media (max-width: 375px) {
+  .img-size {
+    width: 90px;
   }
-  
+  .login-container {
+    width: 235px;
+    margin: 50px auto;
+    padding: 20px;
+    /* Optionally remove or soften the border and box-shadow on smaller screens */
+    border: none;
+    box-shadow: none;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+}
