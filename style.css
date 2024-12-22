@@ -100,9 +100,36 @@ body {
   /* 3) Use a media query to adjust spacing or layout below certain breakpoints */
   @media (max-width: 480px) {
     body {
-      padding: 20px;
+      /* padding: 20px; */
+    }
+    .img-size{
+      width: 140px;
     }
     .login-container {
+      width: 280px;
+      margin: 50px auto;
+      padding: 30px;
+      /* Optionally remove or soften the border and box-shadow on smaller screens */
+      border: none;
+      box-shadow: none;
+    }
+    h2 {
+      font-size: 1.2rem;
+    }
+    button {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 375px) {
+    body {
+      /* padding: 20px; */
+    }
+    .img-size{
+      width: 90px;
+    }
+    .login-container {
+      width: 235px;
       margin: 50px auto;
       padding: 20px;
       /* Optionally remove or soften the border and box-shadow on smaller screens */
