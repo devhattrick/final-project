@@ -1,0 +1,114 @@
+.text{
+    color: red;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 50px 25px;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(148 47 49);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:  rgb(119, 40, 42);
+  }
+  
+  .message {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+  
+/* สำหรับ logo */
+  .img-container{
+    display: flex;
+    justify-content: center;
+  }
+.img-size{
+    width: 200px;
+}
+/* สำหรับ logo */
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  /* 
+    The icon is absolutely positioned, so we can place it
+    on the left side of the input.
+  */
+  .input-group img {
+
+    position: absolute;
+    display: flex;
+    /* justify-content: end;
+    align-items: end; */
+    top: 32px;
+    left: 6px;
+    color: #888;
+    font-size: 1rem;
+  }
+
+  /* 
+    Padding-left is increased to make space for the icon.
+  */
+  .input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

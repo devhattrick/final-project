@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+
+body{
+
+    bdisplay: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1 px solid red;
+    padding: 20 px;  
+    
+}
+
+.Menu {
+    display: flex;
+    list-style: none; 
+}
+
+
+.Menu li a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.logo a { 
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+
+.banner {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-info img {
+
+    width: 150px;
+
+}
+/* เมนปุ่ม 1 */
+main{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding-left: 100px;
+    
+}
+
+/* เมนปุ่ม 1 */
+
+/* ปุ่มหนึ่งในเมน 1 */
+.input-box{
+    display: flex;
+    padding: 60px;
+    list-style: none;
+    
+    
+
+
+
+}
+
+.input-box h2{
+    
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+    
+    
+}
+.input-box input{
+    
+    box-sizing: border-box;
+    height: 30px;
+    padding: 10px;
+    
+}
+.input-box p {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+
+.input-box button {
+
+    display:flex;
+    font-size: 20px;
+    height: 30px;
+    align-items: center;
+    position:relative;
+    margin : 50px 0 ;
+    font-weight: bold;
+    right: 260px;
+    margin-left: 1%;
+    
+}
+/* ปุ่มหนึ่งในเมน 1 */
+
+
+/* ปุ่มสองในเมน 1 */
+.input-dek{
+    display: flex;
+    list-style: none;
+    padding: 60px;
+    height: 1000px;
+}
+
+.input-dek h3{
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.input-dek input {
+    box-sizing: border-box;
+    height: 30px;
+    padding: 10px;
+}
+.input-dek p {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.input-dek button {
+
+    display:flex;
+    font-size: 20px;
+    height: 30px;
+    align-items: center;
+    position:relative;
+    margin : 50px 0 ;
+    font-weight: bold;
+    right: 260px;
+    margin-left: 1%;
+    
+}
+/* ปุ่มสองในเมน 1 */
+
+
+
+
+/* ปุ่มสามในเมน 1 */
+.input-ma{
+    display: flex;
+    list-style: none;
+    padding: 60px;
+    height: 1000px;
+}
+
+.input-ma h3{
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.input-ma input {
+    box-sizing: border-box;
+    height: 30px;
+    padding: 10px;
+}
+
+
+.input-ma p {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.input-ma button {
+
+    display:flex;
+    font-size: 20px;
+    height: 30px;
+    align-items: center;
+    position:relative;
+    margin : 50px 0 ;
+    font-weight: bold;
+    right: 260px;
+    margin-left: 1%;
+    
+}
+/* ปุ่มสามในเมน 1 */
+

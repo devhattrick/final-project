@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  
+    <!-- Font Awesome 4.7 -->
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  integrity="sha512-aklC0x8Ii6L/H7z2a8C9w7jaFteOFGYmBBNf5deBRf/QtVJ8PxbO/0xOd9amWpTjXaaK0ZOi4pK4T2L8V9oqNQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- <P class="text">Title: Login</P>
+    <button onclick="test1()">Click</button> -->
+    <!-- <hr> -->
+    <div class="img-container">
+        <img class="img-size" src="./images/fuck-removebg-preview.png" alt="" srcset="">
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+       
+    <!-- Username Field -->
+    <div class="input-group">
+        <label for="username">Username</label>
+        <!-- The icon -->
+       <img class="icon-user" src="./icons/mdi_user.png" alt="" srcset="">
+        <!-- The text field -->
+        <input type="text" id="username" placeholder="Enter your username" />
+      </div>
+  
+      <!-- Password Field -->
+      <div class="input-group">
+        <label for="password">Password</label>
+        <img src="./icons/mdi_password.png" alt="" srcset="">
+        <input type="password" id="password" placeholder="Enter your password" />
+      </div>
+        
+        <button type="button" onclick="checkLogin()">Login</button>
+        
+        <!-- If you want to display messages without alert, you can use this: 
+             <div class="message" id="message"></div>
+             And in JavaScript, set innerText or textContent.
+        -->
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
